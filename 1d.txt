@@ -1,0 +1,10 @@
+void main () {   
+
+List<String> persona = ['Juan', 'Mateo', 'Lucas', 'Esteban', 'Maria'];
+   print(persona);
+   print(persona.getRange(2, 4));
+   persona.setAll(0, ['Jose', 'Ricardo']);
+   print(persona);
+   persona.forEach((item) => print(item));
+
+}

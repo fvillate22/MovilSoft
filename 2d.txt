@@ -1,0 +1,24 @@
+void main () {   
+
+//Set
+  var persona = <String>{'Julio', 'Martha', 'Isabel'};
+  Set <String> nombres = {'Pablo', 'Ana', 'Pedro'};
+  persona.add('Martha');
+  print(persona);
+
+  nombres.add('Pablo');
+  print(nombres);
+
+  Set numeros = new Set();
+  numeros.add(10);
+  numeros.add(20);
+  numeros.add(30);
+  numeros.add(40);
+  numeros.add(20);
+  numeros.add(50);
+  numeros.add(10);
+
+  print(numeros);
+  
+
+}

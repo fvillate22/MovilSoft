@@ -1,0 +1,12 @@
+import 'dart:io';
+void  main () {
+  stdout.write("Digite un numero ");
+  var numero1 = (stdin.readLineSync());
+  var x = int.parse('$numero1');
+
+  stdout.write("Digite un numero ");
+  var numero2 = (stdin.readLineSync());
+  var y = int.parse('$numero2');
+  var z = x + y;
+  print(z);
+}

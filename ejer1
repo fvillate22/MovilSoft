@@ -1,0 +1,40 @@
+void main() {
+  
+
+   Persona persona = Persona('Pablo', 35);
+   persona.mostrarDatos();
+
+   persona.nombre = 'Carlos';
+   print(persona.nombre);
+
+  
+  Persona persona1 = Persona('Isabel', 35);
+  persona1.mostrarDatos();
+
+   Persona persona2 = Persona('Ana',28);
+  persona2.mostrarDatos();
+
+ }
+
+
+class Persona {
+  //Primeros miembros - Atributos
+  String _nombre;
+  int _edad;
+
+  Persona(this._nombre, [this._edad = 18]);
+ 
+  //Segundos miembros - Métodos
+  void mostrarDatos() {
+    print(_nombre);
+    print(_edad);
+  }  
+
+  //Getters
+  String get nombre => _nombre;
+  int get edad => _edad;
+
+   //Setters
+  void set nombre(String valor) => _nombre = valor;
+  void set edad(int valor) => _edad = valor;
+}
