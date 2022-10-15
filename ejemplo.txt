@@ -1,0 +1,5 @@
+Rol: Desarrollador  
+
+Funcionalidad: Generar las fuentes para el frontend y el backend (instalaciones necesarias para el desarrollo de la apps) 
+
+Razón: Trabajar localmente con las herramientas para la construccion de la apps. 
