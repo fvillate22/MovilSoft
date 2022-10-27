@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:primer_proyecto/src/login/home_page.dart';
+import 'package:primer_proyecto/src/login/info_page.dart';
 import 'package:primer_proyecto/src/login/login_page.dart';
+import 'package:primer_proyecto/src/login/registro_page.dart';
 import 'package:primer_proyecto/src/utils/my_colors.dart';
 
 
@@ -28,7 +30,9 @@ class _MyAppState extends State<MyApp> {
       initialRoute: "home",
       routes: {
         'home': (BuildContext context) => HomePage(), 
-        'login': (BuildContext context) => LoginPage()
+        'login': (BuildContext context) => LoginPage(),
+        'registro': (BuildContext context) => RegistroPage(),
+        'info': (BuildContext context) => InfoPage()
       },
     );
   }

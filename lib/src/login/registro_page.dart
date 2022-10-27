@@ -1,23 +1,21 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/material.dart';
 import 'package:primer_proyecto/src/utils/my_colors.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class RegistroPage extends StatefulWidget {
+  const RegistroPage({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<RegistroPage> createState() => _RegistroPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _RegistroPageState extends State<RegistroPage> {
   @override
-
-
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Login"),
+          appBar: AppBar(
+        title: Text("Registrar"),
         backgroundColor: MyColors.primaryColor,
       ),
       body: Container( 
@@ -62,23 +60,35 @@ class _LoginPageState extends State<LoginPage> {
             ),
             
           ),
+
+            Divider(),
+
+          Container(
+             padding: EdgeInsets.symmetric(horizontal: 20.0),
+             child: TextField(
+              obscureText: true,
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'Repetir Password',
+              ),
+              onChanged: ( value ) {
+              
+              },
+            ),
+            
+          ),
                 Divider(),
           Container(
           child:  ElevatedButton(
-          child: Text("Iniciar Sección"),
+          child: Text("Registrar"),
           style: ElevatedButton.styleFrom(
             primary: MyColors.primaryColor,
             elevation: 0,
           ),
-          onPressed: () => Navigator.pushNamed(context, 'info')
+          onPressed: () => Navigator.pushNamed(context, 'login')
         )
             ),
-        Container(child: 
-        GestureDetector(
-             child: Text("Registrate", style: TextStyle(decoration: TextDecoration.underline, color: Colors.blue)),
-               onTap: () => Navigator.pushNamed(context, 'registro')
-)
-        )  
+        
         
         ],
       ) 
