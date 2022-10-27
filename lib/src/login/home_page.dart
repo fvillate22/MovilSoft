@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
         child: GestureDetector(
           onTap: () => Navigator.pushNamed(context, 'login'),
           child: Image.asset(
-            'assets/img/logo_movilSoft.png',
+            'assets/img/logo_ms.jpeg',
             width: 200,
             height: 200,
           ),

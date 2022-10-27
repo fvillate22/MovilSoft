@@ -27,7 +27,7 @@ class _LoginPageState extends State<LoginPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset( 
-            'assets/img/logo_movilSoft.png',
+            'assets/img/logo_ms.jpeg',
             width: 200,
             height: 200,
             ),

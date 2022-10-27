@@ -25,7 +25,7 @@ class _RegistroPageState extends State<RegistroPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset( 
-            'assets/img/logo_movilSoft.png',
+            'assets/img/logo_ms.jpeg',
             width: 200,
             height: 200,
             ),
