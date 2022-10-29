@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
             width: 200,
             height: 200,
             ),
-           Divider(),
+          Divider(),
 
           Container(
             padding: EdgeInsets.symmetric(horizontal: 20.0),
@@ -46,11 +46,11 @@ class _LoginPageState extends State<LoginPage> {
             ),
             
           ),
-           Divider(),
+          Divider(),
 
           Container(
-             padding: EdgeInsets.symmetric(horizontal: 20.0),
-             child: TextField(
+            padding: EdgeInsets.symmetric(horizontal: 20.0),
+            child: TextField(
               obscureText: true,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
@@ -75,14 +75,14 @@ class _LoginPageState extends State<LoginPage> {
             ),
         Container(child: 
         GestureDetector(
-             child: Text("Registrate", style: TextStyle(decoration: TextDecoration.underline, color: Colors.blue)),
-               onTap: () => Navigator.pushNamed(context, 'registro')
+          child: Text("Registrate", style: TextStyle(decoration: TextDecoration.underline, color: Colors.blue)),
+              onTap: () => Navigator.pushNamed(context, 'registro')
 )
         )  
         
         ],
       ) 
-   )
+  )
     );
   }
 }

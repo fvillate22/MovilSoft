@@ -29,7 +29,7 @@ class _RegistroPageState extends State<RegistroPage> {
             width: 200,
             height: 200,
             ),
-           Divider(),
+          Divider(),
 
           Container(
             padding: EdgeInsets.symmetric(horizontal: 20.0),
@@ -44,11 +44,11 @@ class _RegistroPageState extends State<RegistroPage> {
             ),
             
           ),
-           Divider(),
+          Divider(),
 
           Container(
-             padding: EdgeInsets.symmetric(horizontal: 20.0),
-             child: TextField(
+            padding: EdgeInsets.symmetric(horizontal: 20.0),
+            child: TextField(
               obscureText: true,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
@@ -64,8 +64,8 @@ class _RegistroPageState extends State<RegistroPage> {
             Divider(),
 
           Container(
-             padding: EdgeInsets.symmetric(horizontal: 20.0),
-             child: TextField(
+            padding: EdgeInsets.symmetric(horizontal: 20.0),
+            child: TextField(
               obscureText: true,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
@@ -92,7 +92,7 @@ class _RegistroPageState extends State<RegistroPage> {
         
         ],
       ) 
-   )
+  )
     );
   }
 }
